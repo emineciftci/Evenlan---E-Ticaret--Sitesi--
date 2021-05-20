@@ -1,0 +1,507 @@
+@import url(gloabal.css);
+@import url(tablet.css);
+@import url(tablet_pro.css);
+.list {
+    width: 76%;
+    height: 3000px !important;
+    /* background-color: rgb(199, 199, 170); */
+    display: flex;
+    margin: 3em auto 0;
+}
+
+.all-list {
+    width: 16%;
+    height: 1000px;
+    /* background-color: lightgoldenrodyellow; */
+    border-bottom: 1px solid rgb(209, 200, 200);
+}
+
+#kutu1:checked::after {
+    content: url(../img/icons/checked\ \(2\).png);
+    background-color: white;
+    /* border: 5px solid blueviolet; */
+    color: white;
+    object-fit: cover;
+}
+
+.list .all-list a ul li {
+    font-size: .8em;
+    padding: .7em .7em .7em 3em;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.list .all-list a ul {
+    overflow-y: scroll;
+    height: 1000px;
+}
+
+.list .all-list a ul li:nth-child(1),
+.list .all-list a ul li:nth-child(3),
+.list .all-list a ul li:nth-child(7),
+.list .all-list a ul li:nth-child(14),
+.list .all-list a ul li:nth-child(20),
+.list .all-list a ul li:nth-child(27),
+.list .all-list a ul li:nth-child(34) {
+    font-weight: 700;
+    border-bottom: 1px solid rgb(209, 200, 200);
+    border-bottom-width: 50%;
+}
+
+.list .all-list a ul li input {
+    margin-right: 0.5em;
+    width: 17px;
+    height: 17px;
+    opacity: .6;
+}
+
+
+/*section*/
+
+.bla {
+    /*section*/
+    height: 3000px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.list .big-top-photo {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.list .big-top-photo img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+
+#filtreleme {
+    width: 15%;
+    height: 45px;
+    margin: 2rem 0 2rem 47rem;
+    border-radius: 30px;
+    font-size: .9em;
+}
+
+#filtreleme img {
+    padding-left: .3em;
+}
+
+.list-photos {
+    width: 100%;
+    height: 2500px;
+    /* background-color: burlywood; */
+}
+
+.list-photos .list-photos-group {
+    width: 98%;
+    height: 2500px;
+    /* background-color: cadetblue; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.list-photos .list-photos-group .box1 {
+    width: 30%;
+    height: 440px;
+    /* background-color: aqua; */
+}
+
+.list-photos .list-photos-group:nth-child(1) {
+    margin-top: 3em;
+}
+
+.list-box1 img {
+    object-fit: cover;
+    width: 100%;
+    height: 362px;
+}
+
+.list-btn {
+    width: 22%;
+    height: 35px;
+    background-color: white;
+    position: absolute;
+    top: 0.5em;
+    left: 0.5em;
+}
+
+.like-btn {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+}
+
+.like-btn:hover {
+    background-color: #F5EDA8;
+}
+
+.like-btn a img {
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+    position: absolute;
+    top: 0.6em;
+    right: 0.6em;
+}
+
+.list-box1 {
+    position: relative;
+}
+
+.list-title-big {
+    padding: .5em .5em .5em .5em;
+    font-size: .9em;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.list-title-small {
+    padding: .5em .5em .5em .5em;
+    font-size: .9em;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.list-price {
+    padding-left: 4em;
+    font-size: .9em;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.list-btn a {
+    font-size: .9em;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/*bottom-filter*/
+
+.bottom-filter {
+    width: 15%;
+    margin: 0 auto 3rem;
+}
+
+.bottom-filter a ul li a {
+    color: black;
+    padding-right: .2rem;
+    font-size: 1.3em;
+}
+
+.bottom-filter a ul li:nth-child(2) {
+    text-decoration: underline;
+}
+
+.fixed-menu {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    bottom: 20px;
+    background-color: #EDE7DD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.fixed-menu a img {
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+}
+
+
+/* #filtreleme {
+    position: relative;
+}
+
+#filtreleme:hover::after {
+    content: 'En Yüksek Fiyattan En Düşüğe';
+    width: 160px;
+    height: 105px;
+    background-color: #F5EDA8;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    display: flex;
+} */
+
+#filtreleme {
+    width: 18%;
+    height: 45px;
+    margin: 2rem 0 0 45rem;
+    border-radius: 30px;
+    font-size: .9em;
+}
+
+#filtreleme img {
+    padding-left: .3em;
+}
+
+.btn-filtreleme {
+    display: none;
+}
+
+#filtreleme {
+    position: relative;
+}
+
+#filtreleme:hover .btn-filtreleme {
+    width: 150px;
+    height: 120px;
+    display: block;
+    position: absolute;
+    background-color: #EFEFEF;
+    top: 45px;
+    left: 3px;
+    z-index: 1;
+    padding-left: 1em;
+}
+
+#filtreleme .btn-filtreleme ul li a {
+    color: rgb(54, 52, 52);
+    font-size: .9em;
+    /* border-bottom: 1px solid black; */
+    line-height: 22px;
+}
+
+#filtreleme .btn-filtreleme ul li {
+    text-align: left;
+}
+
+#filtreleme .btn-filtreleme ul li a:hover {
+    transition: 500ms all;
+    text-decoration: underline;
+}
+
+#navbar1 ul {
+    width: 42%;
+}
+
+#navbar1 .logo {
+    width: 20%;
+    height: 40px;
+    /* background-color: lightcoral; */
+    /* text-align: center; */
+    font-size: 2rem;
+    padding-left: 4rem;
+}
+
+#navbar1 .search {
+    width: 38%;
+    height: 40px;
+    /* background-color: lightskyblue; */
+}
+
+
+/*BURADAN AŞAĞIYA*/
+
+
+/*Bottom Menu*/
+
+.bottom-menu {
+    display: none;
+}
+
+#navbar1 ul li {
+    position: relative;
+}
+
+#navbar1 ul li:hover .bottom-menu {
+    display: block;
+    width: 150px;
+    height: 370px;
+    position: absolute;
+    background-color: #F5EDA8;
+    top: 19px;
+    left: -38px;
+    border-radius: 5px;
+    /* margin-right: 2em; */
+}
+
+#navbar1 ul li:hover .bottom-menu ul {
+    display: block;
+}
+
+#navbar1 ul li .bottom-menu ul li a:nth-child(1) {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+#navbar1 ul li .bottom-menu ul li {
+    line-height: 30px;
+    /* background-color: #FFFFF0; */
+    width: 100px;
+    height: 350px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .9em;
+    text-align: left;
+    margin-top: .7em;
+}
+
+#navbar1 ul li .bottom-menu ul li a:hover {
+    border-bottom: 1px solid rgb(85, 82, 82);
+    color: rgb(85, 81, 81);
+    transition: 500ms all;
+    /* padding: 1em 1em 1em 0;
+    background-color: white; */
+}
+
+#bottom-women-menu:hover {
+    border-bottom: 3px solid black;
+}
+
+#navbar1 ul li a:hover {
+    border-bottom: 1px solid black;
+}
+
+
+/*copy bottom-2*/
+
+
+/*Child-menu*/
+
+.bottom-menu-2 {
+    display: none;
+}
+
+#navbar1 ul li {
+    position: relative;
+}
+
+#navbar1 ul li:hover .bottom-menu-2 {
+    display: block;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: #F5EDA8;
+    top: 19px;
+    left: -38px;
+    border-radius: 5px;
+    /* margin-right: 2em; */
+}
+
+#navbar1 ul li:hover .bottom-menu-2 ul {
+    display: block;
+}
+
+#navbar1 ul li .bottom-menu-2 ul li a:nth-child(1) {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+#navbar1 ul li .bottom-menu-2 ul li {
+    line-height: 30px;
+    /* background-color: #FFFFF0; */
+    width: 100px;
+    height: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .9em;
+    text-align: left;
+    margin-top: .7em;
+}
+
+#navbar1 ul li .bottom-menu-2 ul li a:hover {
+    border-bottom: 1px solid rgb(85, 82, 82);
+    color: rgb(85, 81, 81);
+    transition: 500ms all;
+    /* padding: 1em 1em 1em 0;
+    background-color: white; */
+}
+
+
+/*bottom-menu-later-code*/
+
+.sub-menu {
+    display: none;
+}
+
+.hover-me:hover .sub-menu {
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 100px;
+    width: 150px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #F5EDA8;
+}
+
+#navbar1 ul li .bottom-menu-2 ul li .sub-menu ul li a:hover {
+    border-bottom: 1px solid rgb(85, 82, 82);
+    color: rgb(85, 81, 81);
+    transition: 500ms all;
+}
+
+
+/*  Login or Sign Up*/
+
+#navbar1 ul li .login-or-signup ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-or-signup {
+    display: none;
+}
+
+#navbar ul li:hover .login-or-signup {
+    width: 160px;
+    height: 120px;
+    background-color: #FFFFF0;
+    z-index: 1;
+    display: block;
+    position: absolute;
+    top: 24px;
+    left: -50px;
+}
+
+#navbar ul li {
+    position: relative;
+}
+
+#navbar ul li:hover .login-or-signup ul {
+    display: block;
+}
+
+#navbar ul li .login-or-signup ul li {
+    line-height: 40px;
+    background-color: #F5EDA8;
+    width: 100px;
+    height: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .9em;
+    text-align: center;
+    /* margin-top: .5em; */
+    margin-left: 2rem;
+}
+
+#navbar ul li .login-or-signup ul li a:hover {
+    padding: 1em;
+    /* background-color: white; */
+}
+
+#navbar1 .search #search {
+    width: 80%;
+    height: 33px;
+    margin-top: 0.2rem;
+    text-indent: 1rem;
+    border-radius: 5px;
+    margin-left: 5.1rem;
+}
+
+#navbar>.icons {
+    width: 20%;
+}

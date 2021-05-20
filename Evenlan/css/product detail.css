@@ -1,0 +1,560 @@
+@import url(gloabal.css);
+
+/*BURADAN AŞAĞIYA*/
+
+
+/*Bottom Menu*/
+
+.bottom-menu {
+    display: none;
+}
+
+#navbar1 ul li {
+    position: relative;
+}
+
+#navbar1 ul li:hover .bottom-menu {
+    display: block;
+    width: 150px;
+    height: 370px;
+    position: absolute;
+    background-color: #F5EDA8;
+    top: 17px;
+    left: -38px;
+    border-radius: 5px;
+    /* margin-right: 2em; */
+}
+
+#navbar1 ul li:hover .bottom-menu ul {
+    display: block;
+}
+
+#navbar1 ul li .bottom-menu ul li a:nth-child(1) {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+#navbar1 ul li .bottom-menu ul li {
+    line-height: 30px;
+    /* background-color: #FFFFF0; */
+    width: 100px;
+    height: 350px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .9em;
+    text-align: left;
+    margin-top: .7em;
+}
+
+#navbar1 ul li .bottom-menu ul li a:hover {
+    border-bottom: 1px solid rgb(85, 82, 82);
+    color: rgb(85, 81, 81);
+    transition: 500ms all;
+    /* padding: 1em 1em 1em 0;
+    background-color: white; */
+}
+
+#bottom-women-menu:hover {
+    border-bottom: 3px solid black;
+}
+
+
+/*copy bottom-2*/
+
+
+/*Child-menu*/
+
+.bottom-menu-2 {
+    display: none;
+}
+
+#navbar1 ul li {
+    position: relative;
+}
+
+#navbar1 ul li:hover .bottom-menu-2 {
+    display: block;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: #F5EDA8;
+    top: 17px;
+    left: -38px;
+    border-radius: 5px;
+    /* margin-right: 2em; */
+}
+
+#navbar1 ul li:hover .bottom-menu-2 ul {
+    display: block;
+}
+
+#navbar1 ul li .bottom-menu-2 ul li a:nth-child(1) {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+#navbar1 ul li .bottom-menu-2 ul>li {
+    line-height: 30px;
+    /* background-color: #FFFFF0; */
+    width: 100px;
+    height: 150px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .9em;
+    text-align: left;
+    margin-top: .7em;
+}
+
+#navbar1 ul li .bottom-menu-2 ul li a:hover {
+    border-bottom: 1px solid rgb(85, 82, 82);
+    color: rgb(85, 81, 81);
+    transition: 500ms all;
+    /* padding: 1em 1em 1em 0;
+    background-color: white; */
+}
+
+
+/*  Login or Sign Up*/
+
+#navbar1 ul li .login-or-signup ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-or-signup {
+    display: none;
+}
+
+#navbar ul li:hover .login-or-signup {
+    width: 160px;
+    height: 120px;
+    background-color: #FFFFF0;
+    z-index: 1;
+    display: block;
+    position: absolute;
+    top: 24px;
+    left: -50px;
+}
+
+#navbar ul li {
+    position: relative;
+}
+
+#navbar ul li:hover .login-or-signup ul {
+    display: block;
+}
+
+#navbar ul li .login-or-signup ul li {
+    line-height: 40px;
+    background-color: #F5EDA8;
+    width: 100px;
+    height: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .9em;
+    text-align: center;
+    /* margin-top: .5em; */
+    margin-left: 2rem;
+}
+
+#navbar ul li .login-or-signup ul li a:hover {
+    padding: 1em;
+    /* background-color: white; */
+}
+
+
+/*BURADAN AŞAĞIYA*/
+
+
+/*Bottom Menu*/
+
+.bottom-menu {
+    display: none;
+}
+
+#navbar1 ul li {
+    position: relative;
+}
+
+#navbar1 ul li:hover .bottom-menu {
+    display: block;
+    width: 150px;
+    height: 370px;
+    position: absolute;
+    background-color: #F5EDA8;
+    top: 19px;
+    left: -38px;
+    border-radius: 5px;
+    /* margin-right: 2em; */
+}
+
+#navbar1 ul li:hover .bottom-menu ul {
+    display: block;
+}
+
+#navbar1 ul li .bottom-menu ul li a:nth-child(1) {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+#navbar1 ul li .bottom-menu ul li {
+    line-height: 30px;
+    /* background-color: #FFFFF0; */
+    width: 100px;
+    height: 350px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .9em;
+    text-align: left;
+    margin-top: .7em;
+}
+
+#navbar1 ul li .bottom-menu ul li a:hover {
+    border-bottom: 1px solid rgb(85, 82, 82);
+    color: rgb(85, 81, 81);
+    transition: 500ms all;
+    /* padding: 1em 1em 1em 0;
+    background-color: white; */
+}
+
+#bottom-women-menu:hover {
+    border-bottom: 3px solid black;
+}
+
+#navbar1 ul li a:hover {
+    border-bottom: 1px solid black;
+}
+
+
+/*copy bottom-2*/
+
+
+/*Child-menu*/
+
+.bottom-menu-2 {
+    display: none;
+}
+
+#navbar1 ul li {
+    position: relative;
+}
+
+#navbar1 ul li:hover .bottom-menu-2 {
+    display: block;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: #F5EDA8;
+    top: 19px;
+    left: -38px;
+    border-radius: 5px;
+    /* margin-right: 2em; */
+}
+
+#navbar1 ul li:hover .bottom-menu-2 ul {
+    display: block;
+}
+
+#navbar1 ul li .bottom-menu-2 ul li a:nth-child(1) {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+#navbar1 ul li .bottom-menu-2 ul li {
+    line-height: 30px;
+    /* background-color: #FFFFF0; */
+    width: 100px;
+    height: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .9em;
+    text-align: left;
+    margin-top: .7em;
+}
+
+#navbar1 ul li .bottom-menu-2 ul li a:hover {
+    border-bottom: 1px solid rgb(85, 82, 82);
+    color: rgb(85, 81, 81);
+    transition: 500ms all;
+    /* padding: 1em 1em 1em 0;
+    background-color: white; */
+}
+
+
+/*bottom-menu-later-code*/
+
+.sub-menu {
+    display: none;
+}
+
+.hover-me:hover .sub-menu {
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 100px;
+    width: 150px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #F5EDA8;
+}
+
+#navbar1 ul li .bottom-menu-2 ul li .sub-menu ul li a:hover {
+    border-bottom: 1px solid rgb(85, 82, 82);
+    color: rgb(85, 81, 81);
+    transition: 500ms all;
+}
+
+
+/*product-photo-text*/
+
+.product-photo-text {
+    width: 80%;
+    height: 600px;
+    /* background-color: aquamarine */
+    margin-top: 2em;
+}
+
+.photo-list {
+    width: 10%;
+    height: 600px;
+    /* background-color: antiquewhite; */
+}
+
+.photo-only {
+    width: 40%;
+    height: 600px;
+    /* background-color: cadetblue; */
+}
+
+.photo-texts {
+    width: 40%;
+    height: 600px;
+    /* background-color: coral; */
+}
+
+.photo-list-all-list {
+    width: 80%;
+    height: 500px;
+    /* background-color: black; */
+    flex-direction: column;
+    margin-left: 1.5em;
+}
+
+.photo-list-all {
+    width: 80%;
+    height: 110px;
+    /* background-color: crimson; */
+    padding-bottom: .9em;
+    margin-left: 1em;
+}
+
+.photo-list-all:first-child img {
+    outline: 1px solid #F5EDA8;
+}
+
+.photo-list-all img:hover {
+    outline: 1px solid #F5EDA8;
+}
+
+.photo-list-all img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+}
+
+.photo-only img {
+    width: 90%;
+    height: 560px;
+    object-fit: cover;
+    margin-left: 1.7em;
+}
+
+
+/*photo-texts-only*/
+
+.photo-texts .explanation-text-and-star {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border: solid 1px #e2e2e2;
+}
+
+.explanation-text-stars h3 {
+    line-height: 26px;
+    color: rgb(66, 61, 61);
+    font-weight: 400;
+    margin-left: .7em;
+    font-size: .9em;
+    letter-spacing: .1px;
+}
+
+.explanation-text-stars h3 span {
+    font-weight: 480;
+}
+
+.explanation-text-stars img {
+    padding-top: .8em;
+    padding-left: .7em;
+}
+
+.explanation-price {
+    padding-right: 1em;
+    font-size: .9em;
+}
+
+
+/*product-color*/
+
+.product-color {
+    width: 100%;
+    height: 80px;
+    border: solid 1px #e2e2e2;
+    background-color: white;
+    margin-top: .2em;
+}
+
+.product-color .color-circular-all {
+    width: 25%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: .7em;
+    /* padding-left: .3em; */
+}
+
+.product-color .color-circular-all .color-circular {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.product-color .color-circular-all .circular-2 {
+    background-color: #F5EDA8;
+}
+
+.product-color .color-circular-all .circular-4 {
+    background-color: #ED9884;
+}
+
+.product-color .color-circular-all .circular-1 {
+    background-color: #EDE7DD;
+}
+
+.product-color .color-circular-all .circular-3 {
+    background-color: #E6A4C0;
+}
+
+.product-color h4,
+.product-size h4 {
+    padding-top: 1em;
+    padding-left: .7em;
+    color: rgb(66, 61, 61);
+    font-weight: 400;
+    font-size: .8em;
+}
+
+
+/*product-size*/
+
+.product-size {
+    width: 100%;
+    height: 80px;
+    border: solid 1px #e2e2e2;
+    background-color: white;
+    margin-top: .2em;
+}
+
+.product-size-all {
+    width: 60%;
+    height: 30px;
+    /* background-color: #E6A4C0; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 1em;
+}
+
+.product-size-number {
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+    border: solid 1px rgb(189, 182, 182);
+    text-align: center;
+    padding-top: 5px;
+    font-size: .8em;
+}
+
+.product-size-number:hover {
+    background-color: #ddd;
+}
+
+
+/*button*/
+
+.button-container {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border: solid 1px #e2e2e2;
+    margin-top: .2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.button-container a button {
+    margin: 0 0 0 1em;
+    width: 100%;
+    height: 50px;
+    background-color: #F5EDA8;
+    padding: 0 8.5rem;
+    cursor: pointer;
+}
+
+.button-container a button:hover {
+    opacity: .8;
+    transition: 300ms ease-in-out;
+}
+
+.button-container .img-heart-icon {
+    width: 14%;
+    height: 50px;
+    display: inline-block;
+}
+
+.button-container .img-heart-icon img {
+    opacity: .4;
+    cursor: pointer;
+}
+
+.button-container .img-heart-icon img:hover {
+    opacity: .9;
+    width: 53px;
+    height: 53px;
+    transition: 300ms ease-in-out;
+}
+
+.product-explain-text {
+    height: 220px;
+    width: 100%;
+    background-color: white;
+    border: solid 1px #e2e2e2;
+    margin-top: .2em;
+    box-sizing: border-box;
+    padding-left: 2rem;
+}
+
+.product-explain-text h5 {
+    font-size: .9em;
+    padding: .5em 0 .5em 0;
+    font-weight: 500;
+}
+
+.product-explain-text ol li {
+    font-size: .8em;
+    line-height: 23px;
+    list-style-type: circle;
+}
+
+.product-explain-text ol li strong {
+    font-weight: 500;
+    cursor: pointer;
+}

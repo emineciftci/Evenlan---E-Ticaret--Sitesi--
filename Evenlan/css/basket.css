@@ -1,0 +1,343 @@
+@import url(gloabal.css);
+#basket {
+    width: 80%;
+    height: 600px;
+    /* background-color: bisque; */
+}
+
+.basket-container-left {
+    width: 65%;
+    height: 300px;
+    /* background-color: blueviolet; */
+    margin-bottom: 12.5em;
+}
+
+.basket-container-right {
+    width: 20%;
+    height: 400px;
+    /* background-color: brown; */
+    /* border: 2px solid #F1F1F1; */
+    border-radius: 5px;
+    margin-bottom: 6.2em;
+}
+
+.seller-cargo {
+    width: 100%;
+    height: 40px;
+    /* background-color: #EDE7DD; */
+    border-radius: 5px;
+    border: 2px solid #F1F1F1;
+    margin-right: 2em;
+}
+
+.seller {
+    margin-left: 2em;
+}
+
+.cargo {
+    margin-right: 2em;
+}
+
+.seller h3 {
+    padding-right: .8em;
+    color: gray;
+    font-size: .9em;
+}
+
+.seller a h4 {
+    color: rgb(104, 99, 99);
+    font-size: .9em;
+}
+
+.seller h4 {
+    color: black;
+}
+
+.cargo img {
+    padding-right: .8em;
+}
+
+.cargo h4 {
+    color: #1FB141;
+    font-size: .8em;
+}
+
+.basket-product-container {
+    /* background-color: #EDE7DD; */
+    width: 100%;
+    height: 130px;
+    margin-top: .5em;
+    border-radius: 5px;
+    border: 2px solid #F1F1F1;
+    cursor: pointer;
+}
+
+.check {
+    /* background-color: cornflowerblue; */
+    width: 6%;
+    height: 20px;
+}
+
+.product-itself {
+    /* background-color: darkblue; */
+    width: 50%;
+    height: 130px;
+}
+
+.counter-content {
+    /* background-color: cornflowerblue; */
+    width: 15%;
+    height: 130px;
+}
+
+.counter-content .amount {
+    display: block;
+    width: 50%;
+    height: 40px;
+    position: relative;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    padding-left: .5em;
+    border: 1px solid gray;
+}
+
+.basket-product-price {
+    /* background-color: darkcyan; */
+    width: 15%;
+    height: 130px;
+}
+
+ins {
+    padding-bottom: 1em;
+    font-size: .9em;
+}
+
+.delete-box {
+    /* background-color: cornflowerblue; */
+    width: 10%;
+    height: 130px;
+}
+
+.product-itself img {
+    object-fit: cover;
+}
+
+.product-itself .basket-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-right: 3em;
+}
+
+.product-itself .basket-text-container a {
+    color: black;
+    padding-right: 9.5em;
+    line-height: 22px;
+}
+
+.product-itself .basket-text-container span {
+    color: gray;
+    font-size: .9em;
+    line-height: 22px;
+}
+
+.basket-container-right button {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #F5EDA8;
+}
+
+.top-protect-price,
+.cargo-price,
+.discount,
+.paid-price-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 25px;
+    font-size: .9em;
+}
+
+.basket-right-top-container {
+    border: 2px solid #F1F1F1;
+    margin-top: 1em;
+    width: 100%;
+    height: 140px;
+}
+
+.basket-right-top-container .paid-price-total {
+    border: 2px solid #F1F1F1;
+    width: 100%;
+    height: 48px;
+    margin-top: 1em;
+}
+
+.use-coupon {
+    border: 2px solid #F1F1F1;
+    margin-top: 1em;
+    height: 90px;
+    font-size: .9em;
+}
+
+.use-coupon input {
+    background-color: rgb(247, 243, 243);
+    width: 60%;
+    margin-left: .2em;
+    height: 40px;
+    padding-left: .4em;
+    border-radius: 5px;
+}
+
+.use-coupon button {
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.use-coupon label {
+    margin-left: .2em;
+    line-height: 40px;
+}
+
+
+/*BURADAN AŞAĞIYA*/
+
+
+/*Bottom Menu*/
+
+.bottom-menu {
+    display: none;
+}
+
+#navbar1 ul li {
+    position: relative;
+    z-index: 1;
+}
+
+#navbar1 ul li:hover .bottom-menu {
+    display: block;
+    width: 150px;
+    height: 370px;
+    position: absolute;
+    background-color: #F5EDA8;
+    top: 19px;
+    left: -38px;
+    border-radius: 5px;
+    /* margin-right: 2em; */
+}
+
+#navbar1 ul li:hover .bottom-menu ul {
+    display: block;
+}
+
+#navbar1 ul li .bottom-menu ul li a:nth-child(1) {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+#navbar1 ul li .bottom-menu ul li {
+    line-height: 30px;
+    /* background-color: #FFFFF0; */
+    width: 100px;
+    height: 350px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .9em;
+    text-align: left;
+    margin-top: .7em;
+}
+
+#navbar1 ul li .bottom-menu ul li a:hover {
+    border-bottom: 1px solid rgb(85, 82, 82);
+    color: rgb(85, 81, 81);
+    transition: 500ms all;
+    /* padding: 1em 1em 1em 0;
+    background-color: white; */
+}
+
+#bottom-women-menu:hover {
+    border-bottom: 3px solid black;
+}
+
+#navbar1 ul li a:hover {
+    border-bottom: 1px solid black;
+}
+
+
+/*copy bottom-2*/
+
+
+/*Child-menu*/
+
+.bottom-menu-2 {
+    display: none;
+}
+
+#navbar1 ul li {
+    position: relative;
+}
+
+#navbar1 ul li:hover .bottom-menu-2 {
+    display: block;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: #F5EDA8;
+    top: 19px;
+    left: -38px;
+    border-radius: 5px;
+    /* margin-right: 2em; */
+}
+
+#navbar1 ul li:hover .bottom-menu-2 ul {
+    display: block;
+}
+
+#navbar1 ul li .bottom-menu-2 ul li a:nth-child(1) {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+#navbar1 ul li .bottom-menu-2 ul li {
+    line-height: 30px;
+    /* background-color: #FFFFF0; */
+    width: 100px;
+    height: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .9em;
+    text-align: left;
+    margin-top: .7em;
+}
+
+#navbar1 ul li .bottom-menu-2 ul li a:hover {
+    border-bottom: 1px solid rgb(85, 82, 82);
+    color: rgb(85, 81, 81);
+    transition: 500ms all;
+    /* padding: 1em 1em 1em 0;
+    background-color: white; */
+}
+
+
+/*bottom-menu-later-code*/
+
+.sub-menu {
+    display: none;
+}
+
+.hover-me:hover .sub-menu {
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 100px;
+    width: 150px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #F5EDA8;
+}
+
+#navbar1 ul li .bottom-menu-2 ul li .sub-menu ul li a:hover {
+    border-bottom: 1px solid rgb(85, 82, 82);
+    color: rgb(85, 81, 81);
+    transition: 500ms all;
+}
